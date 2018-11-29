@@ -1,0 +1,51 @@
+
+
+body {
+  background-color: red;
+  height: 2100px;
+}
+
+header {
+  background-color: darkgray;
+  height: 20%;
+}
+
+div {
+  background-color: lightgray;
+  height: 100px;
+  width: 15%
+}
+
+footer {
+  background-color: black;
+  padding: 0px 0px;
+  color: white;
+  height: 10%;
+}
+
+#midfoot {
+  float: left;
+  margin: 0px auto;
+  width: 70%;
+  height: 100%;
+}
+
+.empty {
+  height: 80%;
+  width: 100%;
+}
+
+.mid {
+  background-color: white;
+  padding: 0px 0px;
+  width: 100%;
+  height: 90%;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
