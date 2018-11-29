@@ -1,0 +1,49 @@
+body {
+  background-color: white;
+  height: 750px;
+  width: 100%;
+  padding: 15px;
+}
+
+section {
+  height: 36%;
+  width: 100%;
+  background-color: white;
+  border: 4px black;
+}
+
+#top {
+  border: solid;
+  height: 28%;
+  padding: 4px;
+}
+
+#top > div {
+  float: left;
+}
+
+#top-purple {
+background-color: purple;
+height: 55%;
+width: 5%;
+margin: 5% 5% 0% 0%
+}
+
+#top-green {
+background-color: green;
+height: 90%;
+width: 30%
+}
+
+#top-blue {
+background-color: lightblue;
+}
+
+#mid {
+  margin: 15px 0px;
+  border: dotted;
+}
+
+#low {
+  border: white
+}
