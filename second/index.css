@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Oldenburg');
+
 body {
   background-color: white;
   height: 750px;
   width: 100%;
   padding: 15px;
+  font-family: 'Oldenburg';
+  font-size: large;
 }
 
 section {
@@ -32,11 +36,15 @@ margin: 5% 5% 0% 0%
 #top-green {
 background-color: green;
 height: 90%;
-width: 30%
+width: 30%;
 }
 
 #top-blue {
 background-color: lightblue;
+height: 100px;
+width: 100px;
+border-radius: 50%;
+margin: 0% 5%;
 }
 
 #mid {
@@ -44,6 +52,26 @@ background-color: lightblue;
   border: dotted;
 }
 
+#mid > div {
+  margin: 5%;
+  height: 67%;
+  width: auto;
+  box-shadow: 5px 5px;
+  background-color: lightyellow;
+}
+
 #low {
   border: white
+}
+
+#low div {
+  height: 100%;
+  width: 50%;
+  margin: auto;
+  border-right: outset;
+  border-bottom: outset;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  line-height: 100%;
 }
